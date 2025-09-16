@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             //   },
             // ),
             TridentTracker(
-              mapType: MapType.flutterMap,
+              mapType: MapType.googleMaps,
               googleMapsApiKey: 'AIzaSyAdvoSXauSXeX6JtqqEzcc_MKkLM-lPSPo',
               routeAnimation: TridentRouteAnimation(
                 startPoint: LatLng(12.8968, 74.8346),
